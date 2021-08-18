@@ -6,6 +6,27 @@ body{
     ;
     color: white;
 }
+/* navbar styling starts */
+.navbar{
+    background-color:#4F46E5;
+    border-radius: 0.2rem;
+    text-align: right;
+    padding: 2rem;
+}
+
+.navbar-item-inline{
+    display: inline;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+.inline-item{
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+
+/* navbar styling ends */
 
 .container{
     display: flex;
