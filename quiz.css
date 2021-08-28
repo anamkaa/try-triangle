@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Raleway&display=swap'); */
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 *{
     padding: 0;
@@ -32,26 +32,23 @@ h1{
     padding: 0.5rem;
 }
 .inline-item{
-    font-size: larger;
+    font-size: large;
     font-weight: bolder;
     text-decoration: none;
     color: white;
 }
 
-/* navbar styling ends */
-h1{text-align: center;}
-
-.container{
-    /* padding: 1rem; */
-    /* width: 50vw; */
-    margin: 4rem;
-    /* margin-left: 6rem;
-    margin-right: 6rem; */
+.inline-item:hover{
+    font-size: larger;
 }
 
+/* navbar styling ends */
+
+h1{text-align: center;}
+
 .question-container{
-    padding: 1rem;
-    margin: 1rem;
+    padding: 0.4rem;
+    margin: 0.4rem;
 }
 
 .output-div{
@@ -63,12 +60,6 @@ h1{text-align: center;}
 .question-container {
     font-size: larger;
     font-weight: bolder;
-}
-
-label{
-    /* display: flex; */
-     /* padding: 2rem; */
-    
 }
 
 input{
@@ -96,4 +87,49 @@ button{
     padding: 1rem;
     font-size: x-large;
     font-weight: bolder;
+}
+
+.link 
+{
+    text-decoration: none;
+    padding: 0.4rem 0.4rem;
+    transition: 0.5s;
+}
+
+.list-non-bullet
+{
+    list-style: none;
+}
+
+.list-item-inline
+{
+    display: inline;
+    padding: 0.5rem, 1rem;
+}
+
+.footer
+{
+    display: block;
+    width: 100%;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    background-color:#4F46E5 ;
+    /* color: ; */
+    border-bottom-right-radius: 1rem;
+    position:fixed;
+    bottom:0 ;
+    padding: 2rem;
+
+}
+
+.footer .link
+{
+ color:white;
+ font-weight: bold;
+}
+
+.footer .ul 
+{
+    padding-inline-start: 0;
 }
