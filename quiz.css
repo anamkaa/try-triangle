@@ -20,6 +20,7 @@ h1{
 }
 /* navbar styling starts */
 .navbar{
+    max-width: 100%;
     background-color:#4F46E5;
     border-radius: 0.2rem;
     text-align: right;
@@ -71,7 +72,7 @@ button{
     padding: auto;
     margin: auto;
     text-align: center;
-    width: 18vw;
+    max-width :20rem;
     font-weight: bolder;
     font-size: x-large;
     border-radius: 0.2rem;

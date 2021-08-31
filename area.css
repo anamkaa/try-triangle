@@ -12,6 +12,7 @@ body{
 }
 /* navbar styling starts */
 .navbar{
+    max-width: 100%;
     background-color:#4F46E5;
     border-radius: 0.2rem;
     text-align: right;
@@ -41,7 +42,8 @@ body{
     padding: auto;
     margin: auto;
     text-align: center;
-    width: 50vw;
+    max-width: 40%;
+    min-height: 550px;
     padding: 2rem;
 }
 
@@ -74,7 +76,7 @@ button{
     padding: auto;
     margin: auto;
     text-align: center;
-    width: 22vw;
+    max-width :20rem;
     font-weight: bolder;
     font-size: x-large;
     border-radius: 0.2rem;
