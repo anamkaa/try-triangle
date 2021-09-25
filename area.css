@@ -127,10 +127,9 @@ button{
     bottom:0 ;
     padding: 2rem;
     z-index: 1; */
-    background-color: var(--primary-color);
+    background-color: #4F46E5;
     color: white;
     padding: 2rem 1rem;
-    border-bottom-right-radius: 1rem;
     text-align: center;
 
 }
