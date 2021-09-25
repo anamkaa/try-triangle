@@ -93,6 +93,7 @@ button{
     padding: 1rem;
     font-size: x-large;
     font-weight: bolder;
+    z-index: 999;
 }
 
 .link 
