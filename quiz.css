@@ -121,6 +121,7 @@ button{
     position:fixed;
     bottom:0 ;
     padding: 2rem;
+    z-index: 1;
 
 }
 
